@@ -1,0 +1,189 @@
+
+.finishsign-img{
+    width:2.67rem;
+    height:2.67rem;
+}
+.icon-list-box{
+    display: flex;
+    padding: .8rem;
+}
+.icon-list{
+    flex:1;
+}
+.icon-list .icon-img-box{
+    position: relative;
+}
+.icon-list .iconImg{
+    width:2.13rem;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+.icon-list .icon-line{
+    background-color: #DBDBDB;
+    position: absolute;
+    left: 2.13rem;
+    top: 1.07rem;
+    width: 100%;
+    height: 2px;
+    z-index: 1;
+}
+.icon-list.active .icon-line{
+    background-color: #EE2D2D;
+}
+.icon-list .iconImg img{
+    display: block;
+    width: 100%;
+}
+.icon-list .iconTitle{
+    text-align: center;
+    font-size: .64rem;
+    margin-top: .533rem;
+    line-height: .64rem;
+}
+.icon-list.active .iconTitle{
+    color: #EE2D2D;
+}
+
+.item-bg{
+    padding-bottom: .533rem;
+    background-color: #fff;
+    margin-bottom: .533rem;
+}
+.mrtop{
+    font-size: .75rem;
+    line-height: .75rem;
+    padding: .8rem .64rem;
+}
+.mrtop .order_sn{
+    color: #424242;
+    float: left;
+}
+.mrtop .order_status{
+    color: #EE2D2D;
+    float: right;
+}
+.mrtop .order_status.active{
+    color: #999;
+    float: right;
+}
+.goods_box{
+    margin-top: 0;
+}
+.orderdetails .goods_box .goods_list{
+    padding: .533rem .43rem;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+.orderdetails .goods_box .goods_list .finishsign-img{
+    width:3.73rem;
+    height:3.73rem;
+    border-radius: 5px;
+    background-color: #fff;
+    display: block;
+    margin-right: .533rem;
+}
+.orderdetails .goods_box .goods_list .goods_attr_box{
+    flex: 1;
+    position: relative;
+    font-size: .64rem;
+    color: #999;
+}
+.orderdetails .goods_box .goods_list .goods_attr_box .goods_name{
+    color: #424242;
+    line-height: .8rem;
+    margin-bottom: .43rem;
+    
+    height: 1.6rem;
+    display: -webkit-box;
+    /*! autoprefixer: ignore next */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.orderdetails .goods_box .goods_list .goods_attr_box .goods_attr_box_name{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.orderdetails .goods_box .goods_list .goods_attr_box .goods_attr_content{
+    line-height: .64rem;
+    margin-bottom: .27rem;
+    display: flex;
+}
+.orderdetails .goods_box .goods_list .goods_attr_box .goods_attr{
+    margin-left: 0;
+    margin-right: auto;
+}
+.orderdetails .goods_box .goods_list .goods_attr_box .goods_number{
+    margin-left: auto;
+    margin-right: 0;
+}
+.orderdetails .goods_box .goods_list .goods_attr_box .goods_price{
+    text-align: right;
+}
+.orderdetails .goods_box .goods_list > div{
+    margin-bottom: .533rem;
+}
+.orderdetails .goods_box .goods_list > div:last-child{
+    margin-bottom: 0;
+}
+.price_box{
+    margin-top: .8rem;
+    font-size: .64rem;
+    padding: 0 .64rem;
+}
+.price_box .label-title{
+    float: left;
+    color: #424242;
+}
+.price_box .label-val{
+    float: right;
+}
+.price_box .price_content{
+    margin-bottom: .48rem;
+}
+.price_box .feeshippingfee{
+    margin-bottom: 0;
+    margin-top: .533rem;
+    padding-top: .533rem;
+    border-top: 1px solid #f2f2f2;
+}
+.price_box .feeshippingfee .label-val{
+    color: #EE2D2D;
+}
+.price_box .feeshippingfee .label-val span{
+    font-size: .85rem;
+}
+.item-label{
+    padding: .533rem 1.07rem;
+}
+.item-label-title{
+    border-left: 2px solid #ee2d2d;
+    text-indent: .533rem;
+    margin-left: -0.533rem;
+    font-size: .75rem;
+    color:#424242;
+    margin-bottom: .8rem;
+}
+.order-label-title{
+    display: flex;
+    font-size: .64rem;
+    color:#808080;
+    margin-bottom: .8rem;
+    justify-content: flex-start;
+    line-height: .75rem;
+}
+.order-label-title .order-label{
+    min-width: 3.2rem;
+    text-align: right;
+    padding-right: 1.07rem;
+}
+
+
+
+.after::after{
+    display: table;
+    content: " ";
+    clear: both;
+}

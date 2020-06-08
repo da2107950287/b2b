@@ -1,0 +1,224 @@
+.specialtwo .van-cell{
+    width:89%;
+    background: #ff6700;
+    box-sizing: content-box;
+    height: 1rem;
+    line-height: 1rem;
+    background-color: #eee;
+}
+.specialtwo .van-collapse-item .van-cell{
+    padding: 0;
+    padding-top: 8px;
+    background: #fff;
+    padding-left: 32px;
+}
+.specialtwo .van-collapse-item__content{
+    padding:0;
+    margin-top: .5rem;
+}
+
+.colorClass .van-cell__value .van-field__body>input{
+    color:#323233;
+}
+
+.specialDiv .van-tabs .van-tabs__wrap .van-tabs__nav{
+    justify-content: flex-start;
+    width: 100%;
+}
+.specialDiv .van-tab{
+    max-width: 50%;
+}
+.specialDiv .van-tabs .van-tabs__wrap{
+    z-index: 5;
+}
+.noonglianLabel .van-tag--round{
+    margin-right:3px;
+}
+.shoucangIconAfter .van-goods-action-mini-btn__icon{
+    width: 1.8em;
+    height: 1.8rem;
+}
+.enterright .van-cell{
+    background: #333333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    height: 35px;
+}
+/* .enterleft .van-badge{
+    border-bottom:3px solid transparent !important;
+} */
+.van-badge{
+    border-bottom:3px solid transparent;
+}
+.enterleft .van-badge-group .van-badge--select{
+    border-color:#333333;
+}
+.enterleft .van-badge-group .van-badge{
+    border-bottom: 1px solid #f2f2f2;
+}
+.entertwodiv .van-checkbox__label{
+    width:70%;
+}
+.entertwodiv .van-checkbox__icon{
+    display:none;
+}
+.entertwodiv .van-checkbox{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    height: 35px;
+    border-radius: 5px;
+    margin: 10px 20px 12px;
+}
+
+
+
+
+.group-row-box .van-nav-bar__text{
+    color: #ee2d2d;
+}
+.group-row-box .enterright{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    height: 35px;
+}
+.group-row-box .van-hairline--top-bottom::after{
+    border:none;
+}
+.group-row-box .group-row{
+    border-top: 1px solid #f2f2f2;
+}
+.group-row-box .van-badge{
+    padding: 12px 0;
+    text-align: center;
+    line-height: 18px;
+    border:none;
+    border-left: 6px solid transparent;
+    color: #424242;
+    font-size: 14px;
+}
+.group-row-box .enterleft .van-badge-group .van-badge--select{
+    border-left: 6px solid #ee2d2d;
+    color:#ee2d2d;
+    font-size: 16px;
+}
+.group-row-box .group-row-col{
+    margin-top: 4px;
+}
+.group-row-box .entertwodiv .van-checkbox{
+    background: #fff;
+    color: #808080;
+    margin: 10px 12px 10px 20px;
+    border: 1px solid #808080;
+    font-size: 14px;
+}
+.group-row-box .entertwodiv .twoactive{
+    border: 1px solid #ee2d2d;
+}
+.group-row-box .entertwodiv .van-checkbox__label{
+    margin-left: 0;
+    line-height: 35px;
+    color: #808080;
+}
+.group-row-box .entertwodiv .twoactive span.van-checkbox__label{
+    color:#ee2d2d;
+}
+
+
+
+
+
+.fea{
+    text-align: center;
+    font-size: 14px;
+    color: #808080;
+    margin-top: 90px;
+    line-height: 21px;
+}
+.secimg{
+    width:110px;
+}
+.fea .secTitle{
+    color: #212121;
+    font-size: 16px;
+    margin: 19px 0;
+}
+.fea .secText{
+    color: #313131;
+    font-size: 14px;
+    margin: 19px 22px;
+    text-align: left;
+}
+.fea .feaCheckbox{
+    margin: 0 22px;
+    text-align: left;
+}
+.fea .fea-success{
+    color: #EE2D2D;
+    font-size: 16px;
+}
+ 
+.fea .feaCheckbox .van-checkbox__label{
+    font-size: 12px;
+    color: #ee2d2d;
+}
+.fea .feaCheckbox .van-checkbox__label span{
+    color: #808080;
+}
+.fea .secBtnBox{
+    display: flex;
+}
+.fea .secBtn{
+    border:1px solid #ee2d2d;
+    background-color: #ee2d2d;
+    margin: auto 22px;
+    border-radius: 5px;
+    height: 35px;
+    line-height: 1;
+    color: #fff;
+    margin-top: 30px;
+    flex: 1;
+    display: block;
+}
+.fea .secBtn:disabled{
+    border:1px solid #dbdbdb;
+    background-color: #dbdbdb;
+    margin: auto 22px;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 30px;
+    flex: 1;
+    display: block;
+}
+
+.fea .feaCheckbox .van-checkbox__icon{
+    height: 15px;
+}
+.fea .van-checkbox__icon--round .van-icon{
+    height: 15px;
+    line-height: 15px;
+    width: 15px;
+}
+.fea .van-checkbox__icon--checked .van-icon{
+    border-color: #EE2D2D;
+    background-color: #EE2D2D;
+    overflow: hidden;
+}
+.fea .van-icon, .van-icon::before{
+    display: block;
+}
+
+/*我的订单页头部导航样式问题修复*/
+.comment .comment-bar .van-hairline--bottom::after {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    bottom: 0;
+    -webkit-transform: none !important; 
+    transform: none !important;
+}

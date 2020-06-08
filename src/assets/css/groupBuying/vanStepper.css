@@ -1,0 +1,24 @@
+.van-stepper .van-stepper__minus,
+.van-stepper .van-stepper__plus, 
+.van-stepper .van-stepper__input {
+    margin: 0;
+    background-color: #ffffff;
+}
+.van-stepper .van-stepper__minus {
+	height: 30px;
+	border: 1px solid #ccc;
+}
+.van-stepper .van-stepper__plus {
+	height: 30px;
+	border: 1px solid #ccc;
+}
+.van-stepper .van-stepper__input {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.van-stepper .van-stepper__minus--disabled, 
+.van-stepper .van-stepper__minus--disabled:active, 
+.van-stepper .van-stepper__plus--disabled, 
+.van-stepper .van-stepper__plus--disabled:active {
+	background-color: #f7f8fa;
+}

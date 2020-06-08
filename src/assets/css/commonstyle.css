@@ -1,0 +1,75 @@
+.pad6{
+    padding: 0 .6rem;
+}
+.paA4{
+    padding: .4rem 0;
+}
+.color_212222{
+    color:#212222;
+}
+.color_424242{
+    color:#424242;
+}
+.color_CCC{
+    color:#ccc;
+}
+.color_666{
+    color: #666;
+}
+.color_999{
+    color: #999;
+}
+.color_808080{
+    color:#808080;
+}
+.color_EE2D2D{
+    color:#EE2D2D;
+}
+.fz_12{
+    font-size: .64rem;
+}
+.fz_14{
+    font-size: .75rem;
+}
+.fz_16{
+    font-size: .85rem;
+}
+.fz_18{
+    font-size: .96rem;
+}
+.fz_28{
+    font-size: 1.49rem;
+}
+.fz_30{
+    font-size: 1.6rem;
+}
+.dflex{
+    display: flex;
+}
+.djust{
+    display: flex;
+    justify-content: space-between;
+}
+/* 付款按钮 */
+.paymoneybtn{
+    border:1px solid #EE2D2D
+}
+
+/*去掉购物车中多出来的线条*/
+.shoppingCart-goods-title-box .van-swipe-cell .van-swipe-cell__wrapper {
+    /* -webkit-transform: none !important;
+    transform: none !important;
+    -webkit-transition: none !important;
+    transition: none !important; */
+}
+/*去掉商品详情页头部导航栏多出的线条*/
+.goodsBox .van-hairline--bottom::after {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    bottom: 0;
+    -webkit-transform: none !important; 
+    transform: none !important;
+}
